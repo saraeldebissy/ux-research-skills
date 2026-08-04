@@ -1,5 +1,12 @@
 # ux-research-skills
 
+![Researcher in the Loop — Automate, Assist, Protect](assets/researcher-in-the-loop.png)
+
+> **Researcher in the Loop.** AI belongs in research — but not everywhere. This repo is built on one
+> framework: **Automate** the scaffolding, **Assist** the analysis, **Protect** the human parts that
+> only exist in the room. Start with [`research-mode`](research-mode/) — it sets the guardrails every
+> other skill inherits.
+
 Reusable UX research skills for **Claude Code** and **Claude.ai**.
 
 Each skill is a self-contained folder with a `SKILL.md`. The same skill works in both
