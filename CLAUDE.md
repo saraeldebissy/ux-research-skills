@@ -26,7 +26,11 @@ and the trigger must all match).
 
 ## Current skills
 
-> None yet — skills are added on the go.
+- **research-mode** — the guardrails. Defines AI's role in research via Automate / Assist / Protect.
+  Runtime model is detect → triage → intervene, with **split-the-request** behaviour (one ask spans
+  buckets — do the safe parts, hand the Protect part back) and graduated friction (quiet on Automate,
+  light on Assist, visible on Protect). Protect behaviour = **quotes yes, verdicts no**. Every other
+  skill inherits it.
 
 ## Skills backlog
 

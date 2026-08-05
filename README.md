@@ -18,7 +18,15 @@ Skills cover the full research flow: planning, recruitment, interviews, synthesi
 
 ## Skills
 
-> Skills are added on the go — check back for updates.
+### `research-mode` — the guardrails (start here)
+Defines where AI belongs in research using the **Automate / Assist / Protect** framework. Fires on
+any research request, splits it into tasks, and intervenes with the right friction — doing the
+low-risk parts, handing the human-led parts back. Every other skill inherits it.
+
+**Usage:** `/research-mode` at the start of a research session (auto-applied by other skills).
+
+> More skills — recruiting, discussion guides, synthesis, reporting — are added on the go, each
+> operating under `research-mode`.
 
 ---
 
