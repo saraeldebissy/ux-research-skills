@@ -31,12 +31,17 @@ and the trigger must all match).
   buckets — do the safe parts, hand the Protect part back) and graduated friction (quiet on Automate,
   light on Assist, visible on Protect). Protect behaviour = **quotes yes, verdicts no**. Every other
   skill inherits it.
+- **research-plan** — brief → objectives, method, participant criteria, timeline. Protect on method choice.
+- **screener** — participant criteria → qualifying survey. Protect when criteria are judgment calls with no threshold.
+- **recruiting** — screener responses → outreach, tracking, scheduling. Protect when selection becomes a qualitative read.
+- **discussion-guide** — objectives → moderated interview / usability-test guide. Protect: it's a guide, not a script.
+- **synthesis** — raw transcripts/notes → tagged, clustered themes. The core AAP split in one request; Protect on what it means.
+- **research-report** — themes → shareable findings doc. Protect: open questions instead of recommendations.
+- **insight-card** — one decided insight → shareable card. Protect if asked to pick which insight matters.
+
+All seven feed each other in lifecycle order: plan → screener + guide → recruiting + fielding →
+synthesis → report → insight-card.
 
 ## Skills backlog
 
-- research-plan — scaffold a research plan from a brief
-- discussion-guide — generate a moderated interview guide
-- synthesis — tag and cluster raw notes into themes
-- research-report — turn themes into a shareable findings doc
-- screener — write a participant screener survey
-- insight-card — format a single insight into a shareable card
+None currently — all planned skills for v1 are shipped. New skills get added here as they're scoped.

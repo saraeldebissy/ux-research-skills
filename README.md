@@ -25,8 +25,20 @@ low-risk parts, handing the human-led parts back. Every other skill inherits it.
 
 **Usage:** `/research-mode` at the start of a research session (auto-applied by other skills).
 
-> More skills — recruiting, discussion guides, synthesis, reporting — are added on the go, each
-> operating under `research-mode`.
+### The research lifecycle
+
+Each skill below inherits `research-mode`'s AAP guardrails and feeds the next:
+
+1. **`research-plan`** — turn a brief into objectives, method, participant criteria, timeline.
+2. **`screener`** — turn participant criteria into a qualifying survey.
+3. **`recruiting`** — turn screener responses into outreach, tracking, and scheduling.
+4. **`discussion-guide`** — turn objectives into a moderated interview / usability-test guide.
+5. **`synthesis`** — turn raw transcripts/notes into tagged, clustered themes.
+6. **`research-report`** — turn themes into a shareable findings document.
+7. **`insight-card`** — package a single decided insight into a shareable card.
+
+Each has its own `SKILL.md` and `README.md` in its folder. Install all of them at once with
+`./install.sh`, or upload the individual `.zip` from `dist/` on Claude.ai.
 
 ---
 
