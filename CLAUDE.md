@@ -42,6 +42,11 @@ and the trigger must all match).
 All seven feed each other in lifecycle order: plan → screener + guide → recruiting + fielding →
 synthesis → report → insight-card.
 
+- **mobbin-pull** — reference skill, outside the lifecycle. Pulls real-app UI screens from Mobbin
+  into an annotated Figma research board for a given feature. Duplicated from `ux-design-skills`
+  (same skill lives in both repos — update both if it changes). No AAP split; it's a research-input
+  tool, not a judgment-call skill.
+
 ## Skills backlog
 
 None currently — all planned skills for v1 are shipped. New skills get added here as they're scoped.

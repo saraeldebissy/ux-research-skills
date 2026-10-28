@@ -40,6 +40,17 @@ Each skill below inherits `research-mode`'s AAP guardrails and feeds the next:
 Each has its own `SKILL.md` and `README.md` in its folder. Install all of them at once with
 `./install.sh`, or upload the individual `.zip` from `dist/` on Claude.ai.
 
+### Reference — outside the lifecycle
+
+### `mobbin-pull`
+Pulls curated real-app UI references from Mobbin for a given feature and builds an annotated
+research board in Figma. Not part of the plan→insight-card chain — useful for grounding a
+`research-plan` or `discussion-guide` in real-world precedent before fielding. Duplicated here from
+[`ux-design-skills`](https://github.com/saraeldebissy/ux-design-skills), where it also lives as a
+design-workflow tool.
+
+**Usage:** `/mobbin-pull [feature name]`.
+
 ---
 
 ## Install
