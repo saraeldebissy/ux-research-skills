@@ -5,9 +5,9 @@ description: Use when a moderated interview, usability test, or similar session 
 
 # discussion-guide
 
-Turns research objectives into a moderated interview / usability-test guide. Inherits
-`research-mode` — see that skill for the Automate / Assist / Protect (AAP) guardrails this one
-runs under.
+Turns research objectives into a moderated interview / usability-test guide.
+
+**REQUIRED BACKGROUND:** research-mode — this skill operates under its Automate / Assist / Protect guardrails.
 
 ## What it produces
 

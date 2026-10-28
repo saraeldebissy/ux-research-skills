@@ -5,8 +5,9 @@ description: Use when synthesized themes already exist and need to become a shar
 
 # research-report
 
-Turns synthesis output into a shareable findings document. Inherits `research-mode` — see that
-skill for the Automate / Assist / Protect (AAP) guardrails this one runs under.
+Turns synthesis output into a shareable findings document.
+
+**REQUIRED BACKGROUND:** research-mode — this skill operates under its Automate / Assist / Protect guardrails.
 
 ## What it produces
 

@@ -5,8 +5,9 @@ description: Use when participant criteria already exist (from a research-plan o
 
 # screener
 
-Turns participant criteria into a screener survey. Inherits `research-mode` — see that skill for
-the Automate / Assist / Protect (AAP) guardrails this one runs under.
+Turns participant criteria into a screener survey.
+
+**REQUIRED BACKGROUND:** research-mode — this skill operates under its Automate / Assist / Protect guardrails.
 
 ## What it produces
 

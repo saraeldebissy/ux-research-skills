@@ -5,8 +5,9 @@ description: Use when screener responses exist and need to turn into scheduled s
 
 # recruiting
 
-Manages outreach and scheduling against screener responses. Inherits `research-mode` — see that
-skill for the Automate / Assist / Protect (AAP) guardrails this one runs under.
+Manages outreach and scheduling against screener responses.
+
+**REQUIRED BACKGROUND:** research-mode — this skill operates under its Automate / Assist / Protect guardrails.
 
 ## What it produces
 
@@ -39,8 +40,8 @@ skill for the Automate / Assist / Protect (AAP) guardrails this one runs under.
 
 ## Common mistakes
 
-- Treating "pick the best candidates" as a ranking task when it's actually asking for a
-  qualitative read not captured by the screener — that's Protect, not Assist.
-- Silently over-recruiting without flagging it — if you pad the invite list beyond slots to buffer
-  for no-shows, say so, since it affects how "first come" tracking reads.
-- No stated deadline on outreach — always include one, or scheduling drags indefinitely.
+- Treating "pick the best candidates" as a ranking task when it's actually a qualitative read the
+  screener didn't capture — that's Protect, not Assist.
+- Padding the invite list beyond slots to buffer for no-shows without saying so — it changes how
+  "first come" tracking reads.
+- No stated deadline on outreach — scheduling drags indefinitely without one.

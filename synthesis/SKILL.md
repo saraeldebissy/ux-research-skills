@@ -5,9 +5,10 @@ description: Use when raw research data exists — transcripts, notes, open-ende
 
 # synthesis
 
-Turns raw transcripts/notes into tagged, clustered themes. Inherits `research-mode` — see that
-skill for the Automate / Assist / Protect (AAP) guardrails this one runs under. This is likely the
-highest-volume skill in the set, and the one where the AAP split matters most in a single request.
+Turns raw transcripts/notes into tagged, clustered themes. Likely the highest-volume skill in the
+set, and the one where the AAP split matters most in a single request.
+
+**REQUIRED BACKGROUND:** research-mode — this skill operates under its Automate / Assist / Protect guardrails.
 
 ## What it produces
 
